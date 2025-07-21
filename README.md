@@ -47,8 +47,8 @@ rag/
 ### 1. Clone 專案
 
 ```bash
-git clone <repository-url>
-cd rag
+git clone https://github.com/mimisa00/rag_with_ollama.git
+cd rag_with_ollama
 ```
 
 ### 2. 環境設置
@@ -61,7 +61,7 @@ chmod +x startup.sh
 
 #### Windows PowerShell:
 ```powershell
-.\setup.ps1
+請查閱 .\setup.ps1 說明
 ```
 
 ### 3. 啟動服務

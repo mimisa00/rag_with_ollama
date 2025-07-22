@@ -14,6 +14,8 @@ We welcome your valuable feedback! Feel free to leave a comment or contact us vi
 rag/
 ├── app/                      # Python application
 │   ├── app.py                # FastAPI main app
+│   ├── auth.py               # Authorization control
+│   ├── dao.py                # Database access
 │   └── model_docling.py      # Document processing module
 ├── backend/                  # Backend configuration
 │   ├── Dockerfile            # Container configuration

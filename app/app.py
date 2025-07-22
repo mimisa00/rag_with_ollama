@@ -379,7 +379,7 @@ def on_startup():
     load_config()
     ensure_faiss_dir_exists()
     load_existing_index()
-    load_embedding_model()
+    #load_embedding_model()
     load_reranker_model()
 
 

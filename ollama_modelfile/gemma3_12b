@@ -1,8 +1,7 @@
-# 使用 Ollama 標準 gemma3.12b 作為基底
+# https://github.com/ollama/ollama/blob/main/docs/modelfile.md
+
 FROM gemma3.12b
 
-# 設定參數：溫度創造力、context 長度
-# https://github.com/ollama/ollama/blob/main/docs/modelfile.md#parameter
 PARAMETER num_ctx 4096 
 PARAMETER repeat_last_n 64
 PARAMETER repeat_penalty 1.1
@@ -14,7 +13,7 @@ PARAMETER top_k 40
 PARAMETER top_p 0.9  
 PARAMETER min_p 0.0  
 
-# 定義 System Message
+# System Message
 SYSTEM """
 You are a helpful assistant that speaks in Traditional Chinese. Provide clear and concise answers.
 """

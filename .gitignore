@@ -1,14 +1,14 @@
-# IDE 配置
+# IDE 
 .vscode
 .idea
 .cursorignore
 
-# 環境變數
+# Environment
 .env
 .env.local
 .env.production
 
-# 應用數據
+# data
 documents/
 faiss_data/
 config/
@@ -19,17 +19,11 @@ ollama/
 mariadb_data/
 mariadb_data/*
 mariadb_data_bak/
-
-# 配置文件（可選，根據需要調整）
-# config/
-
-# Python
 __pycache__/
 *.py[cod]
 *$py.class
 *.so
 .Python
-env/
 venv/
 ENV/
 env.bak/
@@ -38,10 +32,10 @@ venv.bak/
 # Docker
 .dockerignore
 
-# 系統文件
+# documents
 .DS_Store
 Thumbs.db
 
-# 日誌文件
+# log
 *.log
 

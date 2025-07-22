@@ -76,5 +76,3 @@ docker compose up -d
 - http://localhost:8080/login
 
 
-##  License
-This project is licensed under the MIT License.

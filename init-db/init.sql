@@ -64,7 +64,7 @@ INSERT INTO configs (`key`, value) VALUES
 ('idx_result_count', '20'),
 ('rerank_top_k_final', '16'),
 ('llm_model', 'gemma3:4b'),
-('is_enable_think', 'false'),
+('is_enable_think', 'False'),
 ('llm_req_limit_total', '3'),
 ('llm_req_limit_user', '1'),
 ('num_ctx', '4096'),

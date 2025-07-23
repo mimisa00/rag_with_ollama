@@ -43,7 +43,7 @@ rag/
 ### Prerequisites
 - Docker
 - Git
-- At least 8GB RAM
+- At least CPU 4 Core 2.2 ghz 8GB RAM
 - NVIDIA GPU (optional, for acceleration)
 
 ### 1. Clone the Repository
@@ -61,7 +61,7 @@ chmod +x startup.sh
 ./startup.sh
 ```
 
-#### Windows PowerShell:
+#### Windows base environment:
 ```powershell
 Please refer to .\setup.ps1 for instructions
 ```

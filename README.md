@@ -66,13 +66,7 @@ chmod +x startup.sh
 Please refer to .\setup.ps1 for instructions
 ```
 
-### 3. Start the Services
-
-```bash
-docker compose up -d
-```
-
-### 4. Access the System
+### 3. Access the System
 - http://localhost:8080/login
 
 

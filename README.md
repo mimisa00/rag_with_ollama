@@ -54,15 +54,16 @@ cd rag_with_ollama
 ```
 
 ### 2. Set Up the Environment
-
-#### Linux/macOS:
 ```bash
 chmod +x startup.sh
 ./startup.sh
 ```
 
-#### Windows base environment:
-```powershell
+### 3. Access the System
+- http://localhost:8080/login
+
+## Setting Develop Environment:
+```
 1. Install and Start Ollama
 2. Install MariaDB v10.11 and create database accounts. The account credentials must match those defined in env.
 3. Initialize the database      : Execute all SQL files under the init-db directory.
@@ -72,8 +73,3 @@ chmod +x startup.sh
 7. Install Python dependencies: : pip install -r requirements.txt
 8. Start FastAPI server         : uvicorn app.app:app --host 127.0.0.1 --port 8080
 ```
-
-### 3. Access the System
-- http://localhost:8080/login
-
-

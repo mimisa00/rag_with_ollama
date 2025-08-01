@@ -63,7 +63,7 @@ INSERT INTO configs (`key`, value) VALUES
 ('chunk_overlap', '64'),
 ('idx_result_count', '20'),
 ('rerank_top_k_final', '16'),
-('llm_model', 'gemma3:4b'),
+('llm_model', 'gemma3:12b'),
 ('is_enable_think', 'False'),
 ('llm_req_limit_total', '3'),
 ('llm_req_limit_user', '1'),

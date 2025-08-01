@@ -73,3 +73,19 @@ chmod +x startup.sh
 7. Install Python dependencies: : pip install -r requirements.txt
 8. Start FastAPI server         : uvicorn app.app:app --host 127.0.0.1 --port 8080
 ```
+
+### Overview
+| note | Photo |
+|------|-------|
+|**Login**   |<img width="1920" height="951" alt="image" src="https://github.com/user-attachments/assets/68358aaf-95d5-43b0-8400-49a0e70f7bd0" />|
+|**Register**|<img width="1917" height="994" alt="image" src="https://github.com/user-attachments/assets/eff2f0f3-0d80-46ec-899e-e4c5ba58e35e" />|
+|**Chat**    |<img width="1913" height="944" alt="image" src="https://github.com/user-attachments/assets/36fdd090-08dd-4afe-b2fa-cd58bd26568c" />|
+|**File Upload And Index Build**                          |<img width="1918" height="636" alt="image" src="https://github.com/user-attachments/assets/3cc5cde7-3323-4059-9f2f-b86d5539e388" />|
+|**backend setting `system prompt word embedding ollama`**|<img width="1919" height="993" alt="image" src="https://github.com/user-attachments/assets/e365ffe5-8bfe-487b-9938-73b17994cd90" />|
+|**basic account setting**                                |<img width="1918" height="764" alt="image" src="https://github.com/user-attachments/assets/109338bc-05d5-4a99-b31a-dfa63a1a6e9a" />|
+|**basic user panel**                                     |<img width="1917" height="959" alt="image" src="https://github.com/user-attachments/assets/9bd40207-fd7d-4645-884f-d7234870c8ce" />|
+
+
+
+
+

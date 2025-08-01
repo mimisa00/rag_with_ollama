@@ -83,7 +83,7 @@ chmod +x startup.sh
 |**File Upload And Index Build**                          |<img width="1918" height="636" alt="image" src="https://github.com/user-attachments/assets/3cc5cde7-3323-4059-9f2f-b86d5539e388" />|
 |**backend setting `system prompt word embedding ollama`**|<img width="1919" height="993" alt="image" src="https://github.com/user-attachments/assets/e365ffe5-8bfe-487b-9938-73b17994cd90" />|
 |**basic account setting**                                |<img width="1918" height="764" alt="image" src="https://github.com/user-attachments/assets/109338bc-05d5-4a99-b31a-dfa63a1a6e9a" />|
-|**basic user panel**                                     |<img width="297" height="476" alt="image" src="https://github.com/user-attachments/assets/71d6d8ba-8a12-4125-85be-140ba794c90f" />|
+|**basic user panel**                                     |<img width="1917" height="959" alt="image" src="https://github.com/user-attachments/assets/9bd40207-fd7d-4645-884f-d7234870c8ce" />|
 
 
 

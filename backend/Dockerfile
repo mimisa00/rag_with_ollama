@@ -16,5 +16,5 @@ RUN mkdir -p /backend/logs /backend/models /backend/conversations /backend/docum
 EXPOSE 8080
 
 #啟動 app/app.py 裡面的 app 實例，綁定在 127.0.0.1:8080 主機
-CMD ["uvicorn", "app.app:app", "--host", "127.0.0.1", "--port", "8080"]
+CMD ["uvicorn", "app.app:app", "--host", "0.0.0.0", "--port", "8080"]
 

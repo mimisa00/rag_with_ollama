@@ -75,6 +75,7 @@ chmod +x startup.sh
 ```
 
 ### Overview
+![7813](https://github.com/user-attachments/assets/b52c251e-72b2-42c8-be00-22558b612d52)
 | note | Photo |
 |------|-------|
 |**login**   |<img width="1920" height="951" alt="image" src="https://github.com/user-attachments/assets/68358aaf-95d5-43b0-8400-49a0e70f7bd0" />|

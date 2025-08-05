@@ -42,7 +42,7 @@ CREATE TABLE IF NOT EXISTS conversations (
 -- 建立 LLM 請求狀態追蹤表
 CREATE TABLE IF NOT EXISTS llm_requests (
     id INT AUTO_INCREMENT PRIMARY KEY,
-    user_id VARCHAR(36) NOT NULL,
+    user_id INT(11) NOT NULL,
     conv_id VARCHAR(100),
     question TEXT,
     status ENUM('pending', 'completed', 'failed') DEFAULT 'pending',

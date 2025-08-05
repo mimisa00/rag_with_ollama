@@ -959,6 +959,7 @@ def query(query: QueryTo, current_user: Dict[str, Any] = Depends(get_current_use
     start_time = time.time()
     try:
         if index is None or len(texts) == 0:
+            print("[ERROR] 尚未建立索引，請先分析文件", flush=True)
             raise HTTPException(status_code=400, detail="尚未建立索引，請先分析文件")
 
         conversation_history = ""

@@ -930,15 +930,13 @@ def noun_analysis(
                 )
             finally:
                 print("finally", flush=True)
-                response_time = time.time() - start_time
-                llm_request_dao.mark_request_completed(
-                    req_id, response_time=response_time
-                )
 
         return StreamingResponse(stream_generator(), media_type="application/json")
     except Exception as ex:
         return {"error": "系統錯誤，請稍後再試"}
-
+    finally:
+        response_time = time.time() - start_time
+        llm_request_dao.mark_request_completed(req_id, response_time=response_time)
 
 # 問答
 @app.post("/query")
@@ -1097,15 +1095,13 @@ def query(query: QueryTo, current_user: Dict[str, Any] = Depends(get_current_use
                 )
             finally:
                 print("finally", flush=True)
-                response_time = time.time() - start_time
-                llm_request_dao.mark_request_completed(
-                    req_id, response_time=response_time
-                )
 
         return StreamingResponse(stream_generator(), media_type="application/json")
     except Exception as ex:
         return {"error": "系統錯誤，請稍後再試"}
-
+    finally:
+        response_time = time.time() - start_time
+        llm_request_dao.mark_request_completed(req_id, response_time=response_time)
 
 @app.get("/documents/{filename}")
 def get_document(

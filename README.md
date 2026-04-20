@@ -74,7 +74,7 @@ chmod +x startup.sh
 8. Start FastAPI server         : uvicorn app.app:app --host 127.0.0.1 --port 8080
 ```
 ### Overview Animation
-| Overview Advance Version | Overview this Version |
+| Advance repo | this repo |
 |------|-------|
 ![7814](https://github.com/user-attachments/assets/c731f5f6-96fc-456d-b55d-257c7c9c5c45)|![7813](https://github.com/user-attachments/assets/b52c251e-72b2-42c8-be00-22558b612d52)|
 

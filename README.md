@@ -1,11 +1,40 @@
 # Lightweight Retrieval-Augmented Generation System (RAG)
 
-This project implements an enhanced retrieval system using the Ollama framework as the core platform for LLM operations. The system offers the following features:
-- Account Management: Simple user registration and login functionalities
-- File Upload and Extraction: Upload files and extract their contents
-- Index Building: Create data indexes for semantic retrieval
-- Backend Parameter Configuration: Adjustable parameters for system operation
-We welcome your valuable feedback! Feel free to leave a comment or contact us via email.
+This project was built using **Claude Code** and implements an enhanced retrieval system, with the **Ollama** framework serving as the core platform for LLM operations.
+
+## Features
+
+The system offers a range of features designed for efficient document retrieval and management:
+
+- **Account Management**: Simple user registration and login functionalities.
+- **File Upload & Extraction**: Seamlessly upload files and extract their contents.
+- **Index Building**: Create data indexes optimized for semantic retrieval.
+- **Backend Configuration**: Adjustable parameters for basic system operations.
+
+---
+
+##  Comparison: Open Source vs. Advance Edition
+
+The following table highlights the differences between the public repository and our internal/Advance version:
+
+| Feature | Open Source Edition | Advance Edition (Private) |
+| :--- | :---: | :---: |
+| **Account Management** | ✔️ | ✔️ |
+| **File Processing** | ✔️ | ✔️ |
+| **Semantic Indexing** | ✔️ | ✔️ |
+| **Organization Management** | ❌ | ✔️ |
+| **Granular Access Control (RBAC)** | ❌ | ✔️ |
+| **Advanced RAG Configuration** | ❌ | ✔️ |
+| **Full System Administration** | ❌ | ✔️ |
+
+### Advanced Module Details
+
+For our advance version, we have implemented several high-level modules to meet professional requirements:
+
+* **Organization Management**: Multi-tenant support to manage various organizations and departments.
+* **Permission Control**: Role-Based Access Control (RBAC) to ensure data security and compliance.
+* **Comprehensive RAG Pipeline**: Full suite of parameters for retrieval optimization, including custom chunking strategies and re-ranking.
+* **Global System Settings**: Advanced backend controls for infrastructure and environment monitoring.
 
 
 ##  Structure
@@ -74,13 +103,13 @@ chmod +x startup.sh
 8. Start FastAPI server         : uvicorn app.app:app --host 127.0.0.1 --port 8080
 ```
 
-## QUICK VIEW
-| Advance repo | this repo |
+## Quick View
+| Advance Edition | Open Source Edition |
 |------|-------|
 ![7814](https://github.com/user-attachments/assets/c731f5f6-96fc-456d-b55d-257c7c9c5c45)|![7813](https://github.com/user-attachments/assets/b52c251e-72b2-42c8-be00-22558b612d52)|
 
 
-### ADVANCE REPO 
+### Advance Edition 
 | Feature | Screenshot |
 |------|-------|
 |**Login & Registration** |<img width="300" alt="image" src="https://github.com/user-attachments/assets/9aeeaf5f-b149-4a61-996f-43f3d60aec9a" /><img width="300" alt="image" src="https://github.com/user-attachments/assets/5dc10f0e-92de-4f48-8535-0b8c0dc5c82d" />|
@@ -90,7 +119,7 @@ chmod +x startup.sh
 |**Organization Settings**|<img width="220" alt="image" src="https://github.com/user-attachments/assets/49305ba1-1a02-4759-9ee2-6c3b22ca5b08" /><img width="220" alt="image" src="https://github.com/user-attachments/assets/3a1abda8-52c4-47cc-8d90-cd71f6cbe647" /><img width="220" alt="image" src="https://github.com/user-attachments/assets/fc6cd051-ca55-43c7-897c-e3ce9306b970" /><img width="220" alt="image" src="https://github.com/user-attachments/assets/2775f43d-0d46-4436-96fc-1745de42f0e4" />|
 |**Permissions Management** |<img width="400" alt="image" src="https://github.com/user-attachments/assets/030f728d-e478-4089-b5d3-9c681c853de2" /><img width="400" alt="image" src="https://github.com/user-attachments/assets/0be79baa-3f94-4d68-8c01-17f9a1d62e8b" />|
 
-### THIS REPO
+### Open Source Edition
 | Feature | Screenshot |
 |------|-------|
 |**Login & Registration** |<img width="300" alt="image" src="https://github.com/user-attachments/assets/68358aaf-95d5-43b0-8400-49a0e70f7bd0" /><img width="300" alt="image" src="https://github.com/user-attachments/assets/eff2f0f3-0d80-46ec-899e-e4c5ba58e35e" />|

@@ -1,6 +1,7 @@
 # Lightweight Retrieval-Augmented Generation System (RAG)
 
-This project was built using **Claude Code** and implements an enhanced retrieval system, with the **Ollama** framework serving as the core platform for LLM operations.
+- This project was initially built as an experimental repository to test the capabilities of Claude Code in its early stages.
+- It implements an enhanced retrieval system, with the Ollama framework serving as the core platform for LLM operations.
 
 ## Quick View
 | Advance Edition | Open Source Edition |

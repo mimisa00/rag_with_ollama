@@ -2,6 +2,11 @@
 
 This project was built using **Claude Code** and implements an enhanced retrieval system, with the **Ollama** framework serving as the core platform for LLM operations.
 
+## Quick View
+| Advance Edition | Open Source Edition |
+|------|-------|
+<img width="250" src="https://github.com/user-attachments/assets/c731f5f6-96fc-456d-b55d-257c7c9c5c45" />|<img width="250" src="https://github.com/user-attachments/assets/b52c251e-72b2-42c8-be00-22558b612d52" />
+
 ## Features
 
 The system offers a range of features designed for efficient document retrieval and management:
@@ -103,12 +108,7 @@ chmod +x startup.sh
 8. Start FastAPI server         : uvicorn app.app:app --host 127.0.0.1 --port 8080
 ```
 
-## Quick View
-| Advance Edition | Open Source Edition |
-|------|-------|
-![7814](https://github.com/user-attachments/assets/c731f5f6-96fc-456d-b55d-257c7c9c5c45)|![7813](https://github.com/user-attachments/assets/b52c251e-72b2-42c8-be00-22558b612d52)|
-
-### Advance Edition 
+### Advance Edition Feature Screenshot
 | Feature | Screenshot |
 |:---|:---|
 |**Login & Registration** |<img width="250" src="https://github.com/user-attachments/assets/9aeeaf5f-b149-4a61-996f-43f3d60aec9a" /> <img width="250" src="https://github.com/user-attachments/assets/5dc10f0e-92de-4f48-8535-0b8c0dc5c82d" />|
@@ -119,7 +119,7 @@ chmod +x startup.sh
 |**Permissions Management** |<img width="250" src="https://github.com/user-attachments/assets/030f728d-e478-4089-b5d3-9c681c853de2" /> <img width="250" src="https://github.com/user-attachments/assets/0be79baa-3f94-4d68-8c01-17f9a1d62e8b" />|
 |**Account Management**|<img width="110" src="https://github.com/user-attachments/assets/a1bdf1bf-3531-41b7-affa-d651b44cd0c9" /> <img width="110" src="https://github.com/user-attachments/assets/5c3b7051-bda5-4a4e-acd8-57032f0826ab" /> <img width="110" src="https://github.com/user-attachments/assets/faea3262-7a35-40de-9e88-1c3c0dd763fb" /> <img width="110" src="https://github.com/user-attachments/assets/a843934b-903b-4f04-a636-c3bca5a142fd" /> <img width="110" src="https://github.com/user-attachments/assets/542da936-53e3-4de9-bedf-9a5c0ac609d8" />|
 
-### Open Source Edition
+### Open Source Edition Feature Screenshot
 | Feature | Screenshot |
 |:---|:---|
 |**Login & Registration** |<img width="250" src="https://github.com/user-attachments/assets/68358aaf-95d5-43b0-8400-49a0e70f7bd0" /> <img width="250" src="https://github.com/user-attachments/assets/eff2f0f3-0d80-46ec-899e-e4c5ba58e35e" />|

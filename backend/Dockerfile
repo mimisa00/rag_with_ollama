@@ -12,7 +12,7 @@ RUN pip install -r requirements.txt
 # 創建必要的目錄
 RUN mkdir -p /backend/logs /backend/models /backend/conversations /backend/documents/markdown /backend/frontend /backend/app     
 
-# Docling 異常修復
+# fix docling by https://github.com/docling-project/docling/issues/3528
 # 補上系統層級的 OpenGL / GLib 函式庫
 RUN apt-get update && \
     apt-get install -y --no-install-recommends libgl1 libglib2.0-0 && \
@@ -22,6 +22,7 @@ RUN apt-get update && \
 # 務必放在所有 pip install 的「最後面」,確保它是最終生效的版本
 RUN pip uninstall -y opencv-python opencv-python-headless && \
     pip install --no-cache-dir opencv-python-headless
+# end by https://github.com/docling-project/docling/issues/3528 
 
 # 啟用 8080 PORT
 EXPOSE 8080
